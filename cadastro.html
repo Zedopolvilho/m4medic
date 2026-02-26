@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" name="userName" id="name">
+                    <br>
+                    <label for="mail">Email</label>
+                    <input type="email" name="userMail" id="mail">
+                    <br>
+                    <label for="password">Senha</label>
+                    <input type="password" name="userPassword" id="password" required>
+                    <br>
+                    <label for="passwordRepeat">Repetir senha</label>
+                    <input type="password" name="userPasswordRepeat" id="passwordRepeat" required>
+                    <br>
+                    <label for="function">Funcao</label>
+                    <input type="text"  list="listFunction" name="userFunction" id="function">
+                    <datalist id="listFunction">
+                        <option value="Instrumentador">
+                        <option value="Medico">
+                        <option value="Entregador">
+                        <option value="Administracao">
+                        <option value="Estoque">
+                    </datalist>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
