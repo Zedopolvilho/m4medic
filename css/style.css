@@ -1,0 +1,24 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1
+{
+    text-align: center;
+}
+
+fieldset
+{
+    width:400px;
+    margin-left: 900px;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+button
+{
+    margin-left: 900px;
+}
