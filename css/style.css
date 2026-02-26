@@ -1,3 +1,12 @@
+@font-face
+{
+    font-family:Inter;
+    src:url("../fonts/Inter_18pt-Regular.ttf") format("TrueType");
+    font-display:swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
 *
 {
     margin:0;
@@ -5,20 +14,88 @@
     box-sizing: border-box;
 }
 
-header h1
+
+
+main section
 {
+    display:flex;
+    font-family:"Inter",sans-serif;
+}
+
+.div-img
+{
+    width:600px;
+    height: 900px;
+    background-color:blue;
+}
+
+h2
+{
+    color:#ffffff;
+    font-size:48px;
+    margin-top: 302px;
     text-align: center;
+}
+
+p
+{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 40px;
+    font-size:20px;
+}
+
+.div-login
+{
+    width:1000px;
+    background-color: #f3f4f6;
 }
 
 fieldset
 {
-    width:400px;
-    margin-left: 900px;
-    margin-top: 200px;
+    width:380px;
+    height: 400px;
+    margin: 200px auto 0;
+    border:1px #dddddd solid;
+    background-color: #ffffff;
+    border-radius:10px;
+    text-align: center;
+}
+
+span
+{
+    display:inline-block;
+    margin-top: 16px;
+    font-size:24px;
+}
+
+input[type=email]
+{
+    width:320px;
+    height: 20px;
     padding: 10px;
+    margin: 80px auto 0;
+    border: 1px #cccccc solid;
+    border-radius:5px;
+}
+
+input[type=password]
+{
+    width:320px;
+    height: 20px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border:1px #cccccc solid;
+    border-radius:5px;
 }
 
 button
 {
-    margin-left: 900px;
+    width:320px;
+    height: 45px;
+    margin-top: 30px;
+    font-size:16px;
+    background-color: #2563eb;
+    color:#ffffff;
+    border-radius: 10px;
 }
