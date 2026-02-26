@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Paciente</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Cadastro Paciente</legend>
+                    <label for="name">Nome do paciente</label>
+                    <input type="text" name="pacientName" id="name">
+                    <br>
+                    <label for="address">Endereco</label>
+                    <input type="text" name="pacientAddress" id="address">
+                    <br>
+                    <label for="telNumber">Telefone</label>
+                    <input type="tel" name="pacientTelNumber" id="telNumber" pattern="[0-9]{11}">
+                    <br>
+                    <label for="mail">Email</label>
+                    <input type="email" name="pacientEmail" id="mail">
+                    <br>
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="userCpf" id="cpf" pattern="[0-9]{11}">
+                </fieldset>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
