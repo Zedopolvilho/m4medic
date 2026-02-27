@@ -75,7 +75,7 @@ span
 input[type=email]
 {
     width:320px;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     margin: 80px auto 0;
     border: 1px #cccccc solid;
@@ -85,7 +85,7 @@ input[type=email]
 input[type=password]
 {
     width:320px;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     margin: 20px auto 0;
     border:1px #cccccc solid;
@@ -94,11 +94,12 @@ input[type=password]
 
 button
 {
-    width:320px;
+    width:100px;
     height: 45px;
     margin-top: 30px;
     font-size:16px;
     background-color: #2563eb;
     color:#ffffff;
     border-radius: 10px;
+    cursor:pointer;
 }
