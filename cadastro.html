@@ -11,16 +11,71 @@
         <section>
             <div class="div-nav">
                 <h2>M4Medic</h2>
-                <nav>
+                <nav class="nav-1">
                     <a href="#">Dashboard</a>
                     <a href="#">Cirurgias</a>
                     <a href="#">Agenda</a>
                     <a href="#">Pacientes</a>
                 </nav>
+
+                <p class="p-div-nav">ADMIN</p>
+                <nav class="nav-2">
+                    <a href="cadastro.html">Usuarios</a>
+                </nav>
             </div>
 
             <div class="div-cadastro-user">
+                <p>Administrador</p>
+                <h3>Criar novo usuario</h3>
 
+                <form action="" method="get">
+                    <fieldset>
+                        <label for="name">Nome Completo</label><br>
+                        <input class="input-width-max" type="text" name="userName" id="name" required>
+                        <span>
+                            <div class="div-codigo">
+                                <label for="id">Codigo de acesso (4 ou 6 digitos)</label>
+                                <input class="input-width" type="text" name="userId" id="id" pattern="[0-9]+" minlength="4" maxlength="6" placeholder="Ex.:000123" required>
+                            </div>
+                            <div>
+                                <label for="email">Email (Opcional)</label>
+                                <input type="email" name="userEmail" id="email">
+                            </div>
+                        </span>
+
+                        <span>
+                            <div class="div-codigo">
+                                <label for="functionList">Funcao</label>
+                                <select name="userFunctionList"id="functionList">
+                                    <option value="Administrador Global">Administrador Global</option>
+                                    <option value="Comercial Interno">Comercial Interno</option>
+                                    <option value="Representante Externo">Represetante Externo</option>
+                                    <option value="Instrumentador Cirúrgico">Instrumentador Cirurgico</option>
+                                    <option value="Logística">Logistica</option>
+                                    <option value="Controle de Estoque">Controle de Estoque</option>
+                                    <option value="Compras">Compras</option>
+                                </select>
+                            </div>
+                           
+                            <div>
+                                <label for="tempPassword">Senha Temporária</label>
+                                <input type="password" name="userTempPassword" id="tempPassword" minlength="6" placeholder="Ex.:acb012...">   
+                            </div>
+                        </span>
+                        
+                        <label for="inicialStats">Status Inicial</label>
+                        <br>
+                        <select name="userInicialStats" id="inicialStats">
+                            <option value="Ativo">Ativo</option>
+                            <option value="Inativo">Inativo</option>
+                        </select>
+                        <br>
+
+                        <button type="submit">Salvar Usuario</button>
+
+                        <button type="reset">Cancelar</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
