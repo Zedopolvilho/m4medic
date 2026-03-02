@@ -24,6 +24,7 @@ main
 {
     width:100%;
     max-width: 1360px;
+    max-height: 820px;
     margin: 50px auto 0;
 }
 
@@ -227,4 +228,170 @@ button[type=reset]
 span
 {
     display:flex;
+}
+
+/*Nova Cirurgia*/
+
+.header-pesquisa
+{
+    width:1100px;
+    height:80px;
+    border:1px red solid;
+}
+
+.topbar-search
+{
+    width:520px;
+    height:44px;
+    margin:22px 0 0 30px;
+    border-radius:10px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    font-size:15px;
+}
+
+h4
+{
+    font-size:28px;
+    color:#111827;
+    margin:22px 0 0 30px;
+}
+
+.p
+{
+    margin: 10px 0 0 30px;
+}
+
+.fieldset-width
+{
+    width:1060px;
+    height:540px;
+}
+
+.input-text
+{
+    width:510px;
+    height: 44px;
+    padding:0 10px;
+    font-size:15px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+}
+
+.div-new-curgery-1
+{
+    margin: 0 30px 7px 0;
+}
+
+.div-new-curgery-2
+{
+    margin: 0 20px 7px 0;
+}
+
+.input-tel
+{
+    width:460px;
+    height: 44px;
+    padding:0 10px;
+    font-size:15px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+}
+
+.select
+{
+    width:510px;
+    height:44px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+}
+
+.select-1
+{
+    width:460px;
+    height:44px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+}
+
+.input-date-hour
+{
+    width:340px;
+    height: 44px;
+    padding: 0 10px;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+    background-color: #f9fafb;
+    font-size:15px;
+}
+
+.select-2
+{
+    width:300px;
+    height: 44px;
+    background-color: #f9fafb;
+    border:1px #e5e7eb solid;
+    font-size:15px;
+}
+
+.select-3
+{
+    width:320px;
+    height: 44px;
+    background-color: #f9fafb;
+    border:1px #e5e7eb solid;
+    font-size:15px;
+}
+
+textarea
+{
+    width:1000px;
+    height: 120px;
+    background-color: #f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+    margin-top:12px;
+    padding: 10px 10px;
+    font-size:15px;
+}
+
+.span-checklist-visual
+{
+    width:1000px;
+    height: 58px;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+    padding: 20px;
+}
+
+input[type=checkbox]
+{
+    margin: 0 12px 0 0;
+}
+
+
+
+.p-1
+{
+    margin: 21px 0 12px 0;
+    font-size:14px;
+    color:#374151;
+}
+
+button.btn
+{
+    width:200px;
+    height: 48px;
+    margin: 11px 20px 0 640px;
+}
+
+button.btn-env
+{
+    width:200px;
+    height: 48px;
+    margin: 0;
 }

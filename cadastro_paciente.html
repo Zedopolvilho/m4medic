@@ -3,32 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Paciente</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Nova Cirurgia</title>
 </head>
 <body>
     <main>
         <section>
-            <form action="" method="get">
-                <fieldset>
-                    <legend>Cadastro Paciente</legend>
-                    <label for="name">Nome do paciente</label>
-                    <input type="text" name="pacientName" id="name">
-                    <br>
-                    <label for="address">Endereco</label>
-                    <input type="text" name="pacientAddress" id="address">
-                    <br>
-                    <label for="telNumber">Telefone</label>
-                    <input type="tel" name="pacientTelNumber" id="telNumber" pattern="[0-9]{11}">
-                    <br>
-                    <label for="mail">Email</label>
-                    <input type="email" name="pacientEmail" id="mail">
-                    <br>
-                    <label for="cpf">CPF</label>
-                    <input type="text" name="userCpf" id="cpf" pattern="[0-9]{11}">
-                </fieldset>
+            <div class="div-nav">
+                <h2>M4Medic</h2>
+                <nav class="nav-1">
+                    <a href="#">Dashboard</a>
+                    <a href="cadastro_paciente.html">Cirurgias</a>
+                    <a href="#">Agenda</a>
+                    <a href="#">Pacientes</a>
+                </nav>
 
-                <button type="submit">Cadastrar</button>
-            </form>
+                <p class="p-div-nav">ADMIN</p>
+                <nav class="nav-2">
+                    <a href="cadastro.html">Usuarios</a>
+                </nav>
+            </div>
+
+            <div class="div-cadastro-user">
+                <div class="header-pesquisa">
+                    <input type="text" class="topbar-search" name="userSearch" id="search" placeholder="Pesquisar paciente, médico, hospital...">
+                </div>
+
+                <h4>Nova Cirurgia</h4>
+                <p class="p">Preencha os dados principais para criar o agendamento.</p>
+
+                <form action="" method="get">
+                    <fieldset class="fieldset-width">
+                        <span>
+                            <div class="div-new-curgery-1">
+                                <label for="newCurgeryName">Paciente</label>
+                                <br>
+                                <input type="text"  class="input-text" name="userNewCurgeryName" id="newCurgeryName" placeholder="Nome do paciente">
+                            </div>
+
+                            <div class="div-new">
+                                <label for="telNumberNewCurgery">Telefone</label>
+                                <br>
+                                <input type="tel" class="input-tel" name="userTelNumberNewCurgery" id="telNumberNewCurgery" placeholder="(DD) 9XXXX-XXXX" pattern="[0-9]{11}">
+                            </div>
+                        </span>
+
+                        <span>
+                            <div class="div-new-curgery-1">
+                                <label for="hospital">Hospital</label>
+                                <br>
+                                <select class="select" name="userHospital" id="hospital">
+                                    <option value="Hospital Barra D'Or">Hospital Barra D'Or</option>
+                                    <option value="Hospital Copa D'Or">Hospital Copa D'Or</option>
+                                    <option value="Hospital Quinta D'Or">Hospital Quinta D'Or</option>
+                                    <option value="Hospital Samaritano">Hospital Samaritano</option>
+                                    <option value="Hospital São Vicente de Paulo">Hospital São Vicente de Paulo</option>
+                                    <option value="Hospital Badim">Hospital Badim</option>
+                                    <option value="Hospital Federal da Lagoa">Hospital Federal da Lagoa</option>
+                                    <option value="Hospital Municipal Souza Aguiar">Hospital Municipal Souza Aguiar</option>
+                                    <option value="Hospital Estadual Getúlio Vargas">Hospital Estadual Getúlio Vargas</option>
+                                    <option value="Hospital Municipal Lourenço Jorge">Hospital Municipal Lourenço Jorge</option>
+                                    <option value="Hospital Municipal Miguel Couto">Hospital Municipal Miguel Couto</option>
+                                    <option value="Hospital Municipal Evandro Freire">Hospital Municipal Evandro Freire</option>
+                                    <option value="Hospital Municipal Francisco da Silva Telles">Hospital Municipal Francisco da Silva Telles</option>
+                                    <option value="Santa Casa de Misericórdia do Rio de Janeiro">Santa Casa de Misericórdia do Rio de Janeiro</option>
+                                    <option value="Hospital São Lucas">Hospital São Lucas</option>
+                                    <option value="Instituto Nacional de Câncer INCA">Instituto Nacional de Câncer José Alencar Gomes da Silva (INCA)</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="">Medico</label>
+                                <br>
+                                <select class="select-1" name="userMedic" id="medic">
+                                    <option value="Dr. João Silva - Cirurgia Geral">Dr. João Silva - Cirurgia Geral</option>
+                                    <option value="Dra. Maria Oliveira - Ortopedia">Dra. Maria Oliveira - Ortopedia</option>
+                                    <option value="Dr. Pedro Santos - Cardiologia">Dr. Pedro Santos - Cardiologia</option>
+                                    <option value="Dra. Ana Souza - Ginecologia">Dra. Ana Souza - Ginecologia</option>
+                                    <option value="Dr. Ricardo Almeida - Anestesiologia">Dr. Ricardo Almeida - Anestesiologia</option>
+                                    <option value="Dra. Fernanda Castro - Pediatria">Dra. Fernanda Castro - Pediatria</option>
+                                    <option value="Dr. Marcelo Pereira - Urologia">Dr. Marcelo Pereira - Urologia</option>
+                                    <option value="Dra. Camila Rodrigues - Neurologia">Dra. Camila Rodrigues - Neurologia</option>
+                                    <option value="Dr. Felipe Gomes - Cirurgia Plástica">Dr. Felipe Gomes - Cirurgia Plástica</option>
+                                    <option value="Dra. Juliana Ferreira - Gastroenterologia">Dra. Juliana Ferreira - Gastroenterologia</option>
+                                    <option value="Dr. Gustavo Rezende - Oftalmologia">Dr. Gustavo Rezende - Oftalmologia</option>
+                                    <option value="Dra. Patrícia Lima - Dermatologia">Dra. Patrícia Lima - Dermatologia</option>
+                                    <option value="Dr. Bruno Martins - Oncologia">Dr. Bruno Martins - Oncologia</option>
+                                    <option value="Dra. Beatriz Souza - Endocrinologia">Dra. Beatriz Souza - Endocrinologia</option>
+                                    <option value="Dr. Lucas Pereira - Psiquiatria">Dr. Lucas Pereira - Psiquiatria</option>
+                                </select>
+                            </div>
+                        </span>
+
+                        <span>
+                            <div class="div-new-curgery-2">
+                                <label for="dateAndHour">Data/Hora</label>
+                                <br>
+                                <input class="input-date-hour" type="datetime" name="userDateAndHour" id="dateAndHour" placeholder="dd/mm/aaaa 00:00">
+                            </div>
+
+                            <div class="div-new-curgery-2">
+                                <label for="type">Tipo</label>
+                                <br>
+                                <select class="select-2" name="userType" id="type">
+                                    <option value="Eletiva">Eletiva</option>
+                                    <option value="Emergencia">Emergencia</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="">Status</label>
+                                <br>
+                                <select class="select-3" name="userStatusCurgery" id="statusCurgery">
+                                    <option value="Solicitada">Solicitada</option>
+                                    <option value="Aguardando">Aguardando</option>
+                                </select>
+                            </div>
+                        </span>
+
+                        <label for="observationCurgery">Observacoes</label>
+                        <br>
+                        <textarea name="userObservationCurgery" id="observationCurgery" placeholder="Ex: detalhes do procedimento, restrições, prioridade... "></textarea>
+
+                        <p class="p-1">Documentos (checklist visual)</p>
+                        <span class="span-checklist-visual">
+                            <input type="checkbox" name="userVisualAuthorization" id="visualAuthorization" value="autorizacao">
+                            <label for="visualAuthorization">Autorizacao</label>
+                            <input type="checkbox" style="margin-left: 30px;" name="userVisualRx" id="visualRx" value="rx">
+                            <label for="visualRx">RX</label>
+
+                            <input style="margin-left: 42px;" type="checkbox" name="userPaperVisual" id="paperVisual" value="Folha de sala">
+                            <label for="paperVisual">Folha de sala</label>
+
+                            <input style="margin-left: 51px;" type="checkbox" name="userConsumeVisual" id="consumeVisual" value="Ficha de consumo">
+                            <label for="consumeVisual">Ficha de consumo</label>
+                        </span>
+                    </fieldset>
+
+                    <button class="btn" type="reset">Cancelar</button>
+                    <button class="btn-env"  type="submit">Salvar</button>
+                </form>
+            </div>
         </section>
     </main>
 </body>
