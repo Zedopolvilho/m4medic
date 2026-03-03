@@ -411,7 +411,7 @@ input[type=text].top-search
 
 p.admin-user
 {
-    color:black;
+    color:#111827;
     font-size:28px;
     font-weight: bold;
     margin: 22px 0 0 30px;
@@ -433,13 +433,16 @@ span.mid-bar
 {
     width:1060px;
     height: 96px;
-    border:1px red solid;
+    border:1px #e5e7eb solid;
     margin: 16px 10px 20px 30px;
     display:block;
+    border-radius:10px;
 }
 
 p.mid-bar
 {
+    font-size:14px;
+    color:#6b7280;
     margin: 21px 0 0 30px;
 }
 
@@ -456,3 +459,13 @@ input[type=text].mid-bar-search-function
     padding: 0 20px;
 }
 
+input[type=text].mid-bar-search-status-team
+{
+    width:260px;
+    height: 40px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    padding: 0 20px;
+    margin: 0 0 0 20px;
+    border-radius:10px;
+}
