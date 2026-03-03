@@ -395,3 +395,64 @@ button.btn-env
     height: 48px;
     margin: 0;
 }
+
+/*Admin_gerenciar_usuarios*/
+
+input[type=text].top-search
+{
+    width:520px;
+    height: 44px;
+    margin: 22px 0 0 30px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    border-radius:10px;
+    padding: 0 30px;
+}
+
+p.admin-user
+{
+    color:black;
+    font-size:28px;
+    font-weight: bold;
+    margin: 22px 0 0 30px;
+}
+
+a.btn-create-user
+{
+    color:#ffffff;
+    width:230px;
+    height: 44px;
+    background-color: #1d4ed8;
+    text-align: center;
+    line-height: 44px;
+    border-radius:10px;
+    margin: 20px 0 0 593px;
+}
+
+span.mid-bar
+{
+    width:1060px;
+    height: 96px;
+    border:1px red solid;
+    margin: 16px 10px 20px 30px;
+    display:block;
+}
+
+p.mid-bar
+{
+    margin: 21px 0 0 30px;
+}
+
+
+
+input[type=text].mid-bar-search-function
+{
+    width:260px;
+    height: 40px;
+    margin:10px 0 0 30px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    border-radius:10px;
+    padding: 0 20px;
+}
+
