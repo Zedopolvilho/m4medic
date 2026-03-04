@@ -395,3 +395,164 @@ button.btn-env
     height: 48px;
     margin: 0;
 }
+
+/*Admin_gerenciar_usuarios*/
+
+input[type=text].top-search
+{
+    width:520px;
+    height: 44px;
+    margin: 22px 0 0 30px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    border-radius:10px;
+    padding: 0 30px;
+}
+
+p.admin-user
+{
+    color:#111827;
+    font-size:28px;
+    font-weight: bold;
+    margin: 22px 0 0 30px;
+}
+
+a.btn-create-user
+{
+    color:#ffffff;
+    width:230px;
+    height: 44px;
+    background-color: #1d4ed8;
+    text-align: center;
+    line-height: 44px;
+    border-radius:10px;
+    margin: 20px 0 0 593px;
+}
+
+span.mid-bar
+{
+    width:1060px;
+    height: 96px;
+    border:1px #e5e7eb solid;
+    margin: 16px 10px 20px 30px;
+    display:block;
+    border-radius:10px;
+}
+
+p.mid-bar
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 21px 0 0 30px;
+}
+
+
+
+input[type=text].mid-bar-search-function
+{
+    width:260px;
+    height: 40px;
+    margin:10px 0 0 30px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    border-radius:10px;
+    padding: 0 20px;
+}
+
+input[type=text].mid-bar-search-status-team
+{
+    width:260px;
+    height: 40px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    padding: 0 20px;
+    margin: 0 0 0 20px;
+    border-radius:10px;
+}
+
+div.dashboard
+{
+    width:1060px;
+    height: 504px;
+    border:1px red solid;
+    margin: 20px 10px 40px 30px;
+}
+
+div.dashboard-bar
+{
+    width:1060px;
+    height: 56px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    border-radius:10px;
+    display:flex;
+}
+
+p.dashboard
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 20px 0 0 30px;
+}
+
+p.dashboard-1
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 20px 0 0 220px;
+}
+
+p.dashboard-2
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 20px 0 0 123px;
+}
+
+p.dashboard-3
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 20px 0 0 111px;
+}
+
+p.dashboard-4
+{
+    font-size:14px;
+    color:#6b7280;
+    margin: 20px 0 0 77px;
+}
+
+p.mid-dashboard
+{
+    font-size:14px;
+    color:#111827;
+    font-weight: bold;
+    margin: 30px 0 0 30px;
+}
+
+p.mid-dashboard-1
+{
+    font-size:14px;
+    color:#374151;
+    margin: 30px 0 0 186px;
+}
+
+p.mid-dashboard-2
+{
+    font-size:14px;
+    color:#111827;
+    margin: 30px 0 0 109px;
+}
+
+p.mid-dashboard-status
+{
+    width:74px;
+    height: 26px;
+    margin: 26px 0 0 93px;
+    background-color: #10b981;
+    text-align: center;
+    line-height: 26px;
+    color:#ffffff;
+    border-radius:10px;
+}
