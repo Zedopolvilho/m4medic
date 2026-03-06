@@ -474,8 +474,9 @@ div.dashboard
 {
     width:1060px;
     height: 504px;
-    border:1px red solid;
-    margin: 20px 10px 40px 30px;
+    border:1px #e5e7eb solid;
+    border-radius:10px; 
+    margin: 20px 10px 0px 30px;
 }
 
 div.dashboard-bar
@@ -584,7 +585,45 @@ p.mid-dashboard-inativo
     margin: 26px 0 6px 50px;
 }
 
+p.final
+{
+    margin: 0;
+}
+
 span.dashboard-list-user
 {
     border-bottom:1px #e5e7eb solid;
+}
+
+span.final
+{
+    width:1014px;
+    height: 36px;
+    margin: 4px 16px 0 60px;
+}
+
+a.final
+{
+    width:44px;
+    height: 34px;
+    background-color: #f3f4f6;
+    border: 1px #e5e7eb solid;
+    border-radius:10px;
+    margin-left: 780px;
+    color:#6b7280;
+    text-align: center;
+    line-height: 34px;
+}
+
+a.final-1
+{
+    width:44px;
+    height: 34px;
+    background-color: #f3f4f6;
+    border: 1px #e5e7eb solid;
+    border-radius:10px;
+    margin-left: 6px;
+    color:#6b7280;
+    text-align: center;
+    line-height: 34px;
 }
