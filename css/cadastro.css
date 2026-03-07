@@ -521,7 +521,7 @@ p.dashboard-4
 {
     font-size:14px;
     color:#6b7280;
-    margin: 20px 0 0 77px;
+    margin: 20px 0 0 120px;
 }
 
 p.mid-dashboard
@@ -626,4 +626,37 @@ a.final-1
     color:#6b7280;
     text-align: center;
     line-height: 34px;
+}
+
+
+span.buttons
+{
+    width:300px;
+    margin: 0 auto;
+}
+
+a.button-edit
+{
+    width:110px;
+    height: 28px;
+    background-color: #f3f4f6;
+    margin: 24px 0 0 46px;
+    border-radius:10px;
+    color:#374151;
+    text-align: center;
+    line-height: 28px;
+    font-size:14px;
+}
+
+a.button-block
+{
+    width:110px;
+    height: 28px;
+    background-color: #f3f4f6;
+    margin: 24px 0 0 10px;
+    color:#374151;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 10px;
+    font-size:14px;
 }
