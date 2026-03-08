@@ -660,3 +660,59 @@ a.button-block
     border-radius: 10px;
     font-size:14px;
 }
+
+/*Detalhe-cirurgia*/
+
+span.topbar-search-surgery
+{
+    width:1100px;
+    height: 80px;
+}
+
+div.surgery-code
+{
+    width:400px;
+    height: 61px;
+}
+
+p.surgery-code
+{
+    width:282px;
+    height: 36px;
+    margin:0;
+    font-size:28px;
+    color:#111827;
+    font-weight: bold;
+}
+
+a.surgery-code-att
+{
+    color:black;
+    margin:6px 0 0 420px;
+    width:190px;
+    height: 44px;
+    background-color: #1d4ed8;
+    border-radius:10px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 44px;
+}
+
+span.surgery-text
+{
+    height: 20px;
+    flex-direction: column;
+}
+
+small.surgery
+{
+    font-size:14px;
+    color:#687280;
+}
+
+span.surgery-detail
+{
+    width:1020px;
+    height: 61px;
+    margin:20px auto;
+}
