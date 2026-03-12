@@ -832,12 +832,15 @@ p.history-1
     margin: 7px 0 0 30px;
 }
 
+
 span.box-history
 {
     width:600px;
-    height: 68px;
-    border:1px red solid;
-    margin: 21px auto;
+    height: 48px;
+    border:1px #e5e7eb solid;
+    background-color: #f9fafb;
+    margin: 16px auto;
+    border-radius:10px;
 }
 
 p.tips
@@ -859,6 +862,194 @@ p.contents
 div.box-history
 {
     border:1px red solid;
-    margin-left: 58px;
+    margin:0;
     width:300px;
+}
+
+p.recebido
+{
+    margin:0;
+    width:72px;
+    height: 26px;
+    font-size:12px;
+    font-weight: bold;
+    color:#047857;
+    background-color: #d1fae5;
+    text-align: center;
+    line-height: 26px;
+    margin: 11px 28px 0 120px;
+    border-radius:10px;
+}
+
+p.pendente
+{
+    width:72px;
+    height: 26px;
+    background-color: #fef4c7;
+    text-align: center;
+    line-height: 26px;
+    margin:11px 28px 0 120px;
+    font-size:12px;
+    font-weight: bold;
+    color:#b45309;
+    border-radius:10px;
+}
+
+p.visual-order
+{
+    width:26px;
+    height: 26px;
+    margin: 12px auto;
+    border-radius:100%;
+    background-color: #10b981;
+}
+
+input[type=text].observation
+{
+    width:600px;
+    height: 26px;
+    margin: 5px 0 0 30px;
+    padding:0 10px;
+    background-color:#f9fafb;
+    border:1px #e5e7eb solid;
+    border-radius:10px;
+}
+
+label.observation
+{
+    margin-left:30px;
+    font-size:18px;
+    color:#111827;
+    font-weight: bold;
+}
+
+div.response
+{
+    width:100%;
+    border:1px red solid;
+    height: 400px;
+}
+
+div.responsavel
+{
+    border:1px #e5e7eb solid;
+    width:340px;
+    height: 200px;
+    margin:0 auto;
+    border-radius:10px;
+}
+
+
+small.respo
+{
+    display:block;
+    width:123px;
+    font-size:16px;
+    font-weight: bold;
+    color:#111827;
+    margin: 20px 0 0 30px;
+}
+
+small.rep
+{
+    display:block;
+    width:90px;
+    font-size:13px;
+    color:#687280;
+    margin: 21px 0 0 30px;
+}
+
+small.rep-name
+{
+    display:block;
+    width:111px;
+    font-size:15px;
+    font-weight: bold;
+    color:#111827;
+    margin:6px 0 0 30px;
+}
+
+small.ins
+{
+    display:block;
+    width:96px;
+    font-size:13px;
+    color:#687280;
+    margin:20px 0 0 30px;
+}
+
+small.ins-name
+{
+    display:block;
+    width:111px;
+    font-size:15px;
+    font-weight: bold;
+    color:#111827;
+    margin: 6px 0 0 30px;
+}
+
+div.histo
+{
+    width:340px;
+    height: 180px;
+    border:1px red solid;
+    margin:20px auto;
+}
+
+small.histor
+{
+    width:280px;
+    height: 30px;
+    font-size:18px;
+    font-weight: bold;
+    display:block;
+    margin: 10px auto;
+    border-bottom:1px #e5e7eb solid;
+}
+
+span.histo
+{
+    width:280px;
+    margin:5px auto;
+    border:1px red solid;
+    height: 35px;
+}
+
+small.status
+{
+    width:10px;
+    height: 10px;
+    background-color: #2563eb;
+    border-radius:10px;
+    margin:10px 0 0 10px;
+}
+
+small.status-pend
+{
+    width:10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius:10px;
+    margin:10px 0 0 10px;
+}
+
+div.histor
+{
+    border:1px red solid;
+    width:100%;
+    margin-left:12px;
+}
+
+p.datetime
+{
+    margin:0;
+    font-size:13px;
+    color:#111827;
+    font-weight: bold;
+}
+
+p.obs
+{
+    margin:0;
+    font-size:12px;
 }
