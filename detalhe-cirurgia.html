@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Detalhe Cirurgia</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="div-nav">
+                <h2>M4Medic</h2>
+                <nav class="nav-1">
+                    <a href="#">Dashboard</a>
+                    <a href="cadastro_paciente.html">Cirurgias</a>
+                    <a href="#">Agenda</a>
+                    <a href="#">Pacientes</a>
+                </nav>
+
+                <p class="p-div-nav">ADMIN</p>
+                <nav class="nav-2">
+                    <a href="admin_gerenciar_usuarios.html">Usuarios</a>
+                </nav>
+            </div>
+
+            <div class="div-cadastro-user"> 
+                <span class="topbar-search-surgery">
+                    <input class="top-search" type="text" name="userSearchSurgery" id="searchSurgery" placeholder="Pesquisar cirurgia">
+                </span>
+
+                <span class="surgery-detail">
+                    <div class="surgery-code">
+                        <p class="surgery-code">Detalhes da cirurgia</p>
+                        <small class="surgery">Acompanhe dados, documentos e historico do processo</small>
+                    </div>
+                    <a class="surgery-code-att" href="#">Atualizar status</a>
+
+                </span>
+
+                <div class="information">
+                    <p class="information-surgery">Resumo da cirurgia</p>
+                    <span class="information-1">
+                        <div class="names">
+                            <p class="paciente-surgery">Paciente</p>
+                            <p class="pacient-name">Ana Souza</p>
+                        </div>
+
+                        <div class="tele">
+                            <p class="paciente-surgery">Telefone</p>
+                            <p class="pacient-name">(21) 99999-0000</p>
+                        </div>
+
+                        <div class="hosp">
+                            <p class="paciente-surgery">Hospital</p>
+                            <p class="pacient-name">Hospital Central</p>
+                        </div>
+
+                        <div class="date">
+                            <p class="paciente-surgery">Data/Hora</p>
+                            <p class="pacient-name">24/04/2024 • 08:00</p>
+                        </div>
+                    </span>
+
+                    <span class="information-2">
+                        <div class="names">
+                            <p class="paciente-surgery">Medico(a)</p>
+                            <p class="pacient-name">Dr.Joao Silva</p>
+                        </div>
+
+                        <div class="tele">
+                            <p class="paciente-surgery">Convenio</p>
+                            <p class="pacient-name">Unimed</p>
+                        </div>
+
+                        <div class="hosp">
+                            <p class="paciente-surgery">Tipo</p>
+                            <p class="pacient-name">Eletiva</p>
+                        </div>
+
+                        <div class="date">
+                            <p class="paciente-surgery">Status</p>
+                            <p class="pacient-status">Agendada</p>
+                        </div>
+                    </span>
+                </div>
+
+                <span class="history">
+                    <div class="history">
+                        <p class="history">Documentos</p>
+                        <p class="history-1">Checklist inicial dos documentos do processo</p>
+
+                        <span class="box-history">
+                            <p class="visual-order"></p>
+                            <div class="box-history">
+                                <p class="tips">Autorizacao</p>
+                                <p class="contents">Recebido em 24/04/2024 • Comercial</p>
+                            </div>
+                            <p class="recebido">Recebido</p>
+                        </span>
+
+                        <span class="box-history">
+                            <p class="visual-order"></p>
+                            <div class="box-history">
+                                <p class="tips">Autorizacao</p>
+                                <p class="contents">Recebido em 24/04/2024 • Comercial</p>
+                            </div>
+                            <p class="pendente">Pendente</p>
+                        </span>
+
+                        <span class="box-history">
+                            <p class="visual-order"></p>
+                            <div class="box-history">
+                                <p class="tips">Autorizacao</p>
+                                <p class="contents">Recebido em 24/04/2024 • Comercial</p>
+                            </div>
+                            <p class="pendente">Pendente</p>
+                        </span>
+
+                        <span class="box-history">
+                            <p class="visual-order"></p>
+                            <div class="box-history">
+                                <p class="tips">Autorizacao</p>
+                                <p class="contents">Recebido em 24/04/2024 • Comercial</p>
+                            </div>
+                            <p class="pendente">Pendente</p>
+                        </span>
+
+                        <label class="observation" for="observation">Observacoes</label><br>
+                        <input class="observation" type="text" name="userObservation" id="observation" placeholder="Paciente com prioridade pela manha. Confirmar sala ate 07:30">
+                    </div>
+
+                    <div class="response">
+                        <div class="responsavel">
+                            <small class="respo">Responsaveis</small>
+                            <small class="rep">Representante</small>
+                            <small class="rep-name">Carlos Mendes</small>
+                            <small class="ins">Instrumentador</small>
+                            <small class="ins-name">A definir</small>
+                        </div>
+
+                        <div class="histo">
+                            <small class="histor">Historico</small>
+                            <span class="histo">
+                                <small class="status"></small>
+                                <div class="histor">
+                                    <p class="datetime">24/04 • 07:40</p>
+                                    <p class="obs">Comercial criou a cirurgia</p>
+                                </div>
+                            </span>
+                                                       
+                            <span class="histo">
+                                <small class="status"></small>
+                                <div class="histor">
+                                    <p class="datetime">24/04 • 07:45</p>
+                                    <p class="obs">Status alterado para Agendada</p>
+                                </div>
+                            </span>
+
+                            <span class="histo">
+                                <small class="status-pend"></small>
+                                <div class="histor">
+                                    <p class="datetime">24/04 • 07:50</p>
+                                    <p class="obs">Autorização marcada como recebida</p>
+                                </div>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </span>
+            </div>  
+        </section>
+    </main>
+</body>
+</html>
