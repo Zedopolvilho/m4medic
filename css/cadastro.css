@@ -1060,3 +1060,36 @@ p.obs
     margin:0;
     font-size:12px;
 }
+
+/*Tela Agendamento*/
+
+span.agendamento
+{
+    border:1px red solid;
+    width:100%;
+    height:92px;
+}
+
+input[type="text"].agendamento
+{
+    width:420px;
+    height: 48px;
+    margin:18px 0 0 22px;
+    padding: 0 38px;
+    border-radius:20px;
+    border:1px #e5e7eb solid;
+    background-color:#f9fafb;
+    font-size:14px;
+}
+
+a.agendamento
+{
+    background-color:#3b82f6;
+    width:170px;
+    height: 48px;
+    margin:0;
+    text-align: center;
+    line-height: 44px;
+    border-radius:20px;
+    margin:18px 0 0 496px;
+}
