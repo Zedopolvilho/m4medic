@@ -1093,3 +1093,39 @@ a.agendamento
     border-radius:20px;
     margin:18px 0 0 496px;
 }
+
+span.datas
+{
+    width:1060px;
+    height: 92px;
+    border:1px red solid;
+    margin:24px auto;
+}
+
+div.agendamento-data
+{
+    border:1px red solid;
+    width:400px;
+    height:92px;
+}
+
+h6.agendamento-data
+{
+    font-size:32px;
+    color:#374151;
+}
+
+p.agendamento-data
+{
+    margin:21px 0 0 0;
+    color:#3b82f6;
+    font-size:18px;
+}
+
+input[type="date"].agendamento-data
+{
+    width:160px;
+    height: 46px;
+    margin:45px 0 0 400px;
+    border-radius:10px;
+}
