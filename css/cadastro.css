@@ -7,6 +7,22 @@
     font-display:swap;
 }
 
+:root
+{
+    --primary-color:#111827;
+    --secondary-color:#6b7280;
+    --terciary-color:#ffffff;
+    --quartenary-color:#1d4ed8;
+
+
+    --background-primary-color:#1d4ed8;
+    --background-secondary-color:#f9fafb;
+
+    --tracing-primary-color:#e5e7eb;
+
+    --title-weight:bold;
+}
+
 *
 {
     padding: 0;
@@ -76,7 +92,7 @@ a
 {
     font-size:14px;
     text-decoration: none;
-    color:#ffffff;
+    color:var(--terciary-color);
     margin-bottom: 33px;
     margin-left: 63px;
     width:220px;
@@ -98,7 +114,7 @@ a:hover
     border:1px red solid;
     width:1100px;
     height: 820px;
-    background-color: #ffffff;
+    background-color:#f4f5f7;
     border-radius:10px;
 }
 
@@ -112,14 +128,14 @@ p
 h3
 {
     font-size:28px;
-    color:#111827;
+    color:var(--primary-color);
     margin: 49px 0 0 22px;
 }
 
 fieldset
 {
     padding: 26px 30px 72px 30px;
-    border:1px #e5e7eb solid;
+    border:1px var(--tracing-primary-color) solid;
     width:760px;
     height:520px;
     margin: 24px 0 0 22px;
@@ -214,7 +230,7 @@ button[type=reset]
     width: 160px;
     height:48px;
     border-radius:10px;
-    border-color:#e5e7eb;
+    border-color:var(--tracing-primary-color);
     background-color:#f3f4f6;
     cursor:pointer;
 }
@@ -1059,4 +1075,177 @@ p.obs
 {
     margin:0;
     font-size:12px;
+}
+
+/*Tela Agendamento*/
+
+span.agendamento
+{
+    border:1px red solid;
+    width:100%;
+    height:92px;
+}
+
+input[type="text"].agendamento
+{
+    width:420px;
+    height: 48px;
+    margin:18px 0 0 22px;
+    padding: 0 38px;
+    border-radius:20px;
+    border:1px #e5e7eb solid;
+    background-color:#f9fafb;
+    font-size:14px;
+}
+
+a.agendamento
+{
+    background-color:#3b82f6;
+    width:170px;
+    height: 48px;
+    margin:0;
+    text-align: center;
+    line-height: 44px;
+    border-radius:20px;
+    margin:18px 0 0 496px;
+}
+
+span.datas
+{
+    width:1060px;
+    height: 92px;
+    border:1px red solid;
+    margin:24px auto;
+}
+
+div.agendamento-data
+{
+    border:1px red solid;
+    width:400px;
+    height:92px;
+}
+
+h6.agendamento-data
+{
+    font-size:32px;
+    color:#374151;
+}
+
+p.agendamento-data
+{
+    margin:21px 0 0 0;
+    color:#3b82f6;
+    font-size:18px;
+}
+
+input[type="date"].agendamento-data
+{
+    width:160px;
+    height: 46px;
+    margin:45px 0 0 400px;
+    border-radius:10px;
+}
+
+.agendamento-pacientes
+{
+    width:940px;
+    height:388px;
+    margin:0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.agendamento-paciente-div
+{
+    border:1px var(--tracing-primary-color) solid;
+    background-color: var(--terciary-color);
+    height: 88px;
+    width: 100%;
+    border-radius:10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.hour
+{
+    width:64px;
+    height:56px;
+    background-color: #ebf0ff;
+    margin: 16px 0 0 20px;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color:var(--quartenary-color);
+    font-size:14px;
+    font-weight: var(--title-weight);
+}
+
+.hour img{
+    width:10px;
+    height:10px;
+    margin-top:16px;
+}
+
+.paci
+{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+}
+
+.nome
+{
+    font-size:14px;
+    font-weight: var(--title-weight);
+    color: var(--primary-color);
+}
+
+.nome-dr
+{
+    font-size:12px;
+    color: var(--secondary-color);
+}
+
+.nome-hosp
+{
+    font-size:11px;
+    color:var(--secondary-color);
+}
+
+.info-status
+{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+}
+
+.status-info-el
+{
+    background-color:#ebf0ff;
+    width:50px;
+    height: 20px;
+    border-radius:10px;
+    text-align:center;
+    line-height: 20px;
+    font-size:9px;
+    font-weight: var(--title-weight);
+    color: var(--quartenary-color);
+}
+
+.status-info-em
+{
+    background-color:#fee2e2;
+    width:80px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+    border-radius:10px;
+    font-size: 9px;
+    font-weight: var(--title-weight);
+    color: #dc2626;
 }
