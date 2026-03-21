@@ -1,45 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cadastro.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cadastro.css" />
     <title>Agendamento</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section>
-            <div class="div-nav">
-                <h2>M4Medic</h2>
-                <nav class="nav-1">
-                    <a href="#">Dashboard</a>
-                    <a href="cadastro_paciente.html">Cirurgias</a>
-                    <a href="agendamento.html">Agenda</a>
-                    <a href="#">Pacientes</a>
-                </nav>
+      <section>
+        <div class="div-nav">
+          <h2>M4Medic</h2>
+          <nav class="nav-1">
+            <a href="#">Dashboard</a>
+            <a href="cadastro_paciente.html">Cirurgias</a>
+            <a href="agendamento.html">Agenda</a>
+            <a href="#">Pacientes</a>
+          </nav>
 
-                <p class="p-div-nav">ADMIN</p>
-                <nav class="nav-2">
-                    <a href="admin_gerenciar_usuarios.html">Usuarios</a>
-                </nav>
+          <p class="p-div-nav">ADMIN</p>
+          <nav class="nav-2">
+            <a href="admin_gerenciar_usuarios.html">Usuarios</a>
+          </nav>
+        </div>
+
+        <div class="div-cadastro-user">
+          <span class="agendamento">
+            <input
+              class="agendamento"
+              type="text"
+              name="userSearchForPacient"
+              id="searchForPacient"
+              placeholder="Buscar hospital ou paciente"
+            />
+            <a
+              class="agendamento"
+              href="cadastro_paciente.html"
+              title="Nova cirurgia"
+              >+ Nova Cirurgia</a
+            >
+          </span>
+
+          <span class="datas">
+            <div class="agendamento-data">
+              <h6 class="agendamento-data">Agenda de Cirurgias</h6>
+              <p class="agendamento-data">Sabado, 25 Abril 2026</p>
             </div>
 
-            <div class="div-cadastro-user">
-                <span class="agendamento">
-                    <input class="agendamento" type="text" name="userSearchForPacient" id="searchForPacient" placeholder="Buscar hospital ou paciente">
-                    <a class="agendamento" href="cadastro_paciente.html" title="Nova cirurgia">+ Nova Cirurgia</a>
-                </span>
+            <input
+              class="agendamento-data"
+              type="date"
+              name="userDataSurgery"
+              id="dataSurgery"
+            />
+          </span>
 
-                <span class="datas">
-                    <div class="agendamento-data">
-                        <h6 class="agendamento-data">Agenda de Cirurgias</h6>
-                        <p class="agendamento-data">Sabado, 25 Abril 2026</p>
-                    </div>
-
-                    <input class="agendamento-data" type="date" name="userDataSurgery" id="dataSurgery">
-                </span> 
+          <span class="agendamento-pacientes">
+            <div class="agendamento-paciente-div">
+              <small class="hour"
+                ><img src="img/clock.png" alt="Relogio" />07:00</small
+              >
+              <small class="info-status">
+                <small class="paci">
+                  <small class="nome">Maria Oliveira</small>
+                  <small class="nome-dr">Dr. Carlos Mendes</small>
+                  <small class="nome-hosp">Hospital Sao Lucas</small>
+                </small>
+                <small class="status-info-el">Eletiva</small>
+              </small>
             </div>
-        </section>
+            <div class="agendamento-paciente-div">
+              <small class="hour"
+                ><img src="img/clock.png" alt="Relogio" />09:30</small
+              >
+              <small class="info-status">
+                <small class="paci">
+                  <small class="nome">Joao Silva</small>
+                  <small class="nome-dr">Dra. Ana Beatriz</small>
+                  <small class="nome-hosp">Hospital Albert Einstein</small>
+                </small>
+                <small class="status-info-em">Emergencial</small>
+              </small>
+            </div>
+            <div class="agendamento-paciente-div">
+              <small class="hour"
+                ><img src="img/clock.png" alt="Relogio" />11:00</small
+              >
+              <small class="info-status">
+                <small class="paci">
+                  <small class="nome">Pedro Santos</small>
+                  <small class="nome-dr">Dr. Ricardo Lopes</small>
+                  <small class="nome-hosp">Hospital Sirio-Libanes</small>
+                </small>
+                <small class="status-info-el">Eletiva</small>
+              </small>
+            </div>
+            <div class="agendamento-paciente-div">
+              <small class="hour"
+                ><img src="img/clock.png" alt="Relogio" />14:00</small
+              >
+              <small class="info-status">
+                <small class="paci">
+                  <small class="nome">Fernanda Costa</small>
+                  <small class="nome-dr">Dr. Marcos Vieira</small>
+                  <small class="nome-hosp">Hospital Samaritano</small>
+                </small>
+                <small class="status-info-el">Eletiva</small>
+              </small>
+            </div>
+          </span>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
