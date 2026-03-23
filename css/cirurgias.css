@@ -1,76 +1,221 @@
-.top
-{
-    border:1px red solid;
-    width:100%;
-    height: 80px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 44px;
-    justify-content: space-between;
+.top {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 35px;
+  justify-content: space-between;
 }
 
-.div-top
-{
-    display:flex;
-    flex-direction:column;
+.div-top {
+  display: flex;
+  flex-direction: column;
 }
 
-.title-1
-{
-    font-size:24px;
-    font-weight: var(--title-weight);
-    color:var(--primary-color);
+.title-1 {
+  font-size: 24px;
+  font-weight: var(--title-weight);
+  color: var(--primary-color);
 }
 
-.title-2
-{
-    font-size: 13px;
-    color:var(--secondary-color);
+.title-2 {
+  font-size: 13px;
+  color: var(--secondary-color);
 }
 
-.new-surgery
-{
-    background-color:var(--background-primary-color);
-    margin:0;
-    width:150px;
-    height: 38px;
-    text-align:center;
-    line-height: 38px;
-    border-radius:10px;
-    cursor:pointer;
+.new-surgery {
+  background-color: var(--background-primary-color);
+  margin: 0;
+  width: 150px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.new-surgery:hover
-{
-    background-color:var(--background-primary-color);
-    margin:0;
-    width:150px;
-    height: 38px;
-    text-align:center;
-    line-height: 38px;
-    border-radius:10px;
-    cursor:pointer;
+.new-surgery:hover {
+  background-color: var(--background-primary-color);
+  margin: 0;
+  width: 150px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.surgery-details
-{
-    border:1px red solid;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width:946px;
-    height: 310px;
-    margin:10px auto 0;
+.search-surgery-top {
+  width: 340px;
+  height: 40px;
+  padding: 0 36px;
+  margin: 10px 0 20px 33px;
+  border: 1px var(--tracing-primary-color) solid;
+  background-color: var(--terciary-color);
+  border-radius: 10px;
 }
 
-.surgery-details-div
-{
-    border:1px red solid;
-    width:100%;
-    height: 40px;
-    display:flex;
-    padding:0 24px;
-    justify-content: space-between;
-    align-items: center;
+.surgery-details {
+  border: 1px var(--tracing-primary-color) solid;
+  background-color: var(--terciary-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 946px;
+  height: 310px;
+  margin: 10px auto 0;
+}
+
+.surgery-details-div {
+  border-bottom: 1px var(--tracing-primary-color) solid;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.tipo {
+  width: 30px;
+}
+
+.tipo-el {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  color: var(--sextenary-color);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-terciary-color);
+  border-radius: 10px;
+  font-weight: var(--title-weight);
+}
+
+.tipo-em {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  color: var(--quintenary-color);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-quartenary-color);
+  border-radius: 10px;
+  font-weight: var(--title-weight);
+}
+
+.paciente {
+  width: 100px;
+  color: var(--primary-color);
+  font-size: 13px;
+}
+
+.medico {
+  width: 150px;
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.hospital {
+  width: 180px;
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.data {
+  width: 80px;
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.status-surgery {
+  width: 120px;
+}
+
+.status-surgery-agendada {
+  width: 120px;
+  height: 24px;
+  background-color: var(--background-terciary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 11px;
+  color: var(--sextenary-color);
+}
+
+.status-surgery-pre {
+  width: 120px;
+  height: 24px;
+  background-color: var(--background-quintenary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 11px;
+  color: var(--septenary-color);
+}
+
+.status-surgery-logistica {
+  width: 120px;
+  height: 24px;
+  background-color: var(--background-terciary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--sextenary-color);
+}
+
+.status-surgery-cotacao {
+  width: 120px;
+  height: 24px;
+  background-color: var(--background-sexternary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--secondary-color);
+}
+
+.status-surgery-pos {
+  width: 120px;
+  height: 24px;
+  background-color: var(--background-octagnary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--octagnary-color);
+  font-size: 11px;
+}
+.observacao-surgery {
+  width: 100px;
+}
+
+.observacao {
+  display: none;
+}
+
+.imge {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ .observacao {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: #ffffff;
+  align-items: flex-start;
+  text-align: center;
 }
